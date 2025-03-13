@@ -1,6 +1,6 @@
 # 🔢 RPC Matrix Server  
 
-To check the assignment question, click here: **[CS4049_Assignment_01](CS4049_Assignment_01)** 
+To check the assignment question, click here: **[CS4049_Assignment_01](CS4049_Assignment_01.pdf)** 
 
 ## 🔐 Generate TLS Certificates  
 Run:  
