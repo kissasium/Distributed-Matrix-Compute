@@ -14,17 +14,17 @@ openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -node
 📂 worker/      
 
 
-##  1️⃣ Start the coordinator (server):
+##  1️⃣ Start the coordinator:
 
 ```sh
-python coordinator/coordinator.py
+go run Coordinator/coordinator.go
 ```
 ##  2️⃣ Start workers (each in a separate terminal):
 
 ```sh
-python worker/worker.py
+go run worker/worker.go
 ```
 ## 3️⃣ Run the client:
 ```sh
-python client/client.py
+go run client/client.go
 ```
