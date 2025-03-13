@@ -15,7 +15,7 @@ openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -node
 ##  1️⃣ Start the coordinator (server):
 
 ```sh
-python coordinator/server.py
+python coordinator/coordinator.py
 ```
 ##  2️⃣ Start workers (each in a separate terminal):
 
